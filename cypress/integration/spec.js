@@ -5,7 +5,7 @@ describe("Gatsby blog", () => {
   })
 
   it("loads home page", () => {
-    cy.get("main > h1").should("include", "Hellllllo")
+    cy.get("main > h1")
   })
 
   it("navigates to second page and back", () => {
